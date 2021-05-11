@@ -25,46 +25,56 @@
         /* <!-- *css: cascade style sheet 계층형스타일 표 * --> */
         header > h1, footer > h1 { text-align: center;}
         nav { display: block; height: 60px;}
-        nav > u1 > li {
-                   float:left; margin-right:20px;
+        nav > ul > li {
+             float:left; margin-right:20px;
         }
-                div.contents {
+            div.contents {
             /* 내부의 컨텐츠 기준되는 외부 요소에 관계형 
             포지션 추가 */
             position: relative;
+            overflow: hidden;
             }
             section{
                 width: 79%; display: inline-block;
             }
+            section> article {
+                margin: 10px 30px;
+                border:1px solid
+                }
+                
+
             aside{
                 width: 20%; display: inline-block;
-                height:  100%;
+                float: 100;
+                right:0px;
                 position: absolute;
-            }
-
-            }
-        
-        section { width: 50%; display: inline-block; }
-        aside { width: 40%; display: inline-block; }
+            }         
      </style>
      <header>
         <H1>Header</H1>
      </header>
      <nav>
-         <ul>
-             <li><a href="#">menu1</a> </li>
-             <li><a href="#">menu2</a> </li>
-             <li><a href="#">menu3</a> </li>
-             
-             </ul>
-             </nav>
-             <div id="content"
-                <section>
-                <h1>section</h1>
-            <article>
-                <h1>article</h1>
+        <ul>
+        <li><a href="#">menu1</a> </li>
+        <li><a href="#">menu2</a> </li>
+        <li><a href="#">menu3</a> </li>
+        </ul>
+    </nav>
+    <div class="contents">
+        <section> 
+           <h1>section</h1>
+           <article>
+            <h1>article1</h1>
             </article>
-            
+           </article>
+        </section>
+        <aside>
+            <h1>aside</h1>
+        </aside>
+    </div>
+    <footer>
+        <h1>footer</h1>
+    </footer>
 
 
     <!-- 테이블 태그 제어: 셀병합 -->
@@ -82,18 +92,18 @@
         <td>1</td>
         <td>HTML</td>
         <td>7,000</td>
-        <td>1,000</td>
+        <td rowspan="2">1,000</td>
         <td>7,000,000</td>
     </tr>
     <tr>
         <td>2</td>
         <td>HTML</td>
         <td>7,000</td>
-        <td rowspan="2">1,000</td>
+        <!-- <td>1,000</td> -->
         <td>7,000,000</td>
       </tr>
         <td colspan="4">합계</td>
-        <td></td>
+        <!-- <td></td> -->
         <td>14,000,000</td>
 
     </table>
