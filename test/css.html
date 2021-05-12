@@ -12,9 +12,30 @@
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 <style>
-    body {
-        font-family: 'Nanum Gothic', sans-serif;
+   h1 { background-color: skyblue; }
+    div * {
+        color: green;
     }
+    .box-one, .box-two { background-color: tomato; }
+    #box-four, #box-five { background-color: yellow; }
+    .box-one p:after { content: ' +addadd'; }
+    .box-one p::before { content: 'add+ ';}
+    a:hover { color:white; }    
+    /* 크기단위 font 크기, img크기, 단위종류) ~px, ~em(배수). ~rem(root기반) */
+    .box-one {
+         font-size: 8px;
+         /* font-size: 1.5em; */
+         /* 웹브라우저 기본 폰트크기는 16px*1.5 */
+         /* font-size: 1.5rem; */
+
+        }
+         .box-one p {
+             font-size: 1.5em;
+             /* 웹브라우저 기본폰트인 16px의 1.5배가 아닌 8px의(부모요소) 1.5배 */
+             font-size: 1.5em;        
+             font-size: 1.5rem;
+             /* 위에서부터 해석하는 방식 인터프러터형=자바스크립틀 인터프리터형 언어*/
+                     }
 </style>
 <!-- 03 선택자 종류
         범용선택자:* (뱔표:애스터리스크)
@@ -23,9 +44,21 @@
         id선택자:#id이름, 특징:중복사용시 오작동
         가상선택자: ::after ::before :before
         가상요소(Element-가상태그): :hpver 사용예 a:hover  -->
+    <h1>
+
 </head>
 <body>
-    
+<h1>헬로 CSS</h1>
+<div class="box-one">one</div>
+<div class="box-two">two</div>
+<div class="box-three">three</div>
+<div id="box-four">four</div>
+<div id="box-five">five</div>
+
+
+</h1>
+
+</h1>
 </body>
 </html>
 <p><span style="color: tomato;">Lorem, ipsum</span>dolor sit amet consectetur adipisicing elit. Asperiores beatae dolor provident velit odit tempora cupiditate exercitationem laudantium consequatur veritatis ipsam possimus nesciunt architecto facilis harum, incidunt autem id quae. Eveniet modi porro quibusdam nemo ducimus quos consequuntur necessitatibus assumenda eos cupiditate, incidunt sed est voluptatum numquam architecto. Temporibus iusto repellat quod minus laudantium libero illum aliquid dolor cupiditate repellendus eveniet quisquam numquam consequuntur quos eaque magni, quae, sunt tenetur exercitationem? Non nulla est recusandae, minima debitis enim temporibus officia saepe eius! Natus at officiis accusamus dolorum eaque delectus soluta vero necessitatibus quam, ut, omnis libero provident? Enim, beatae ducimus!
