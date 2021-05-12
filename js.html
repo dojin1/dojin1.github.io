@@ -21,6 +21,7 @@
         // jQuery CDN : Contents Delivery Network 인터넷으로 외부프로그램을 가져다 사용.
         // jQuery 의 기본형식 $시작 문서가 준비되었을때 자동구현
         // 인터프리터의 단점 위 -> 아래 실행되는 순서를 신경쓰지않아도됨.->jQuey 장점.
+        // $('id선택자').click(콜백함수(){구현내용});
         $(document).ready(function(){
             // html문서를 다 읽어 들인 후에 {}내용이 실행된다.
             $('#checkValue').click(function(){
@@ -54,17 +55,18 @@
         var names = $('#name');
         var inputName = document.getElementsByName('name');
         var twoClassName = document.getElementsByClassName('two');
-        // 네이밍 방식: 카멜(낙타등)표기법 단어와단어합칠때.
-        // 카멜표기법: 소문자로시작, 다른단어가 나올떄는 대문자로시작, 나머지는
+        // 네이밍 방식: 카멜(낙타등)표기법 단어와 단어 합칠때.
+        // 카멜표기법: 소문자로시작, 다른단어가 나올떄는 대문자로시작, 나머지는 다 소문자
         console.log(twoClassName);//two + calss + name =twoClassName
         document.write('클래스엘리먼트 내용출력 :', twoClassName[0]['innerHTML']);
-        function checkValue() {
+        function checkValue(params) {//전송을 받습니다.
             // alert(params + ' 버튼 클릭 되었습니다.');
             alert(names.val() + "가 입력한 값입니다.");
             document.getElementById('one').style.backgroundColor = 'red';
             $('#one').css('background-color','red');
-
         }
+        console.log(names);
+        document.write('<br>');
         // 변수의 영역
         //function스코프변수 예약어 var, 블록scope변수예약어 let, const
     var i = 10;
@@ -75,7 +77,7 @@
         let i2 = 200;//let 변수는 {}이 영역 안에서만 효력이있다.
     }   
     function test(params) {
-        i2 = 200;//var 사용하면 변수 재정의된 변수 밖으로 못나감.
+    var i2 = 200;//var 사용하면 변수 재정의된 변수 밖으로 못나감.
     }
     test(1);
     document.write(i2);
@@ -89,14 +91,13 @@
             document.write('<br>');
             i = i + 1;// i++
         }
-        
+        document.write('<hr>');
         // 반복문1: for문 ~하는 동안 반복.
-        
         // for(시작값; 종료값; 증가값) {}
         // i--; i = i - 1;
         // i++; i = i + 1;
         //for(var i=(arrays.length-1); i>=0; i--) { //내림차순출력
-        for(var i=0; i<arrays.length; i++) { //오름차순출력}
+        for(var i=0; i<arrays.length; i++) { //오름차순출력
             document.write(arrays[i]);
             document.write('<br>');
         }
@@ -105,7 +106,7 @@
             document.write('if문 시작');
         } else if(2 == 3) {
             document.write('else if 첫번쨰');
-        } else if(true) {
+        } else if('a' == 'a') {
             document.write('else if 두번째');
         } else {
             document.write('else 문');
@@ -119,6 +120,7 @@
                 break;//switch문 빠져나갑니다 (중지
             case 2:
                 document.write(key,'를 선택했습니다');
+                break;
             case 3:
                 document.write(key,'를 선택했습니다');
                 break;
@@ -126,6 +128,7 @@
                 document.write('선택된 키가 없습니다');
                 break;
         }  
+        document.write('<hr>');
         // 인터넷 자료교환 대량 데이터형식: xml 태그 데이터 방식
         // 지금은 json(JavaScript Object Notation) 자바스크립트 객체 표시
         var human = {
