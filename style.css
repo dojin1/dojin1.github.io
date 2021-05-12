@@ -1,3 +1,6 @@
 body {
     font-family: 'Nanum Gothic', sans-serif;
+    /* 폰트 명 '' "" 따옴표가 붙은 폰트명, 없는 폰트명  */
+    /* 공백이 있는 폰트명은 따옴표 없을시 작동이안됨 */
+    /* sans-serif;같은 공백없는 폰트명은 따옴표 없어도됨 */
 }
