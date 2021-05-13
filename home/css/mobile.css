@@ -188,7 +188,7 @@ header {
 	padding: 0px 0px 0px 65px;
 	height: 60px;
 	line-height: 60px;
-	background: url(./img/ico_gnb01.png) no-repeat 10px center;/* 10px가로위치,center 세로가운데정렬 */
+	background: url(../img/ico_gnb01.png) no-repeat 10px center;/* 10px가로위치,center 세로가운데정렬 */
 	background-size: 49px 56px;
 }
 .gnb_depth {
@@ -196,13 +196,13 @@ header {
 	display: none;
 }
 .gnb li + li a { /* 1차 (대메뉴) li 태그중 2번째 영역 */
-	background-image: url(./img/ico_gnb02.png);
+	background-image: url(../img/ico_gnb02.png);
 }
 .gnb li + li + li a { /* 1차 (대메뉴) li 태그중 3번째 영역 */
-	background-image: url(./img/ico_gnb03.png);
+	background-image: url(../img/ico_gnb03.png);
 }
 .gnb li + li + li + li a { /* 1차 (대메뉴) li 태그중 4번째 영역 */
-	background-image: url(./img/ico_gnb04.png);
+	background-image: url(../img/ico_gnb04.png);
 }
 .gnb li:nth-child(2n+1) {
 	/* 2n+1 홀수번째의 li태그를 말함 */
