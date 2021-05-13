@@ -50,7 +50,11 @@ git config --local user.email 영문이메일
 
 
 #### 20210513(목) 작업내역
--작업폴더를 나누는 이유: 시청(관공서), 대학, 기업의 웹프로그램(사이트)를
+-픽사베이 이미지 3개: 로고1, 슬라이드 이미지1, .NoImage1 받고, 경로 적어놓기
+- 로고:https://pixabay.com/ko/photos/%EC%96%BC%EC%9D%8C-%EC%9D%B8%EA%B3%B5-%EC%96%BC%EC%9D%8C-6215207/
+- 슬라이드이미지:https://pixabay.com/ko/photos/%EB%B9%84%EC%B9%98-%EB%B0%94%EB%8B%A4-%EC%84%A0%EC%85%8B-%ED%96%87%EB%B9%9B-%EB%AA%A8%EB%9E%98-1751455/
+- no_img:https://pixabay.com/ko/vectors/%ED%94%8C%EB%9E%98%EA%B7%B8-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EA%B5%AD%EA%B8%B0-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-3029663/
+- 작업폴더를 나누는 이유: 시청(관공서), 대학, 기업의 웹프로그램(사이트)를
 제작 할때, 1년간 무상 유지보수 이후 보통 2천, 리뉴얼 4천 비용이 책정
 -home폴더 기존작업물, 리뉴얼 home에 덮어쓰는 방식이 아니고,
 -리뉴얼 할때 home2022 폴더에 작업을 하시게 됩니다.
