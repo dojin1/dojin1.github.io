@@ -1,5 +1,5 @@
 내역
-20210510(월) 작업내역
+#### 20210510(월) 작업내역
 개발PC(html) 와 깃 저장소와 연결시킵니다. 초기에 연결시 아래와 같은 문제점이 나올 수 있습니다.
 레포지토리(저장소) 초기화: git init 또는 VS code에서 레포지토리초기화 버튼 이후
 Git에서 'user.name' 및 'user.email'을 구성하라고 떠요!(해결책 아래 2줄)
@@ -26,7 +26,7 @@ git pull 로 어제 작업한 내용을 최신버전으로 업데이트 합니�
 html : Hyter Text MarkUp Language 태그를 사용하는 언어
 md : MarkDown Language 태그를 사용하지 않는 언어
 
-20210511(화) 작업내역
+#### 20210511(화) 작업내역
 로렘 입숨 한글URL: http://guny.kr/stuff/klorem/#/dl-html
 로렘 입숨 영어URL: https://loremipsum.io/generator/
 URL경로(path): /루트, /test/html5.html
@@ -40,4 +40,25 @@ PC의 네트워크 내부주소(공통): 127.0.0.1 == localhost
 IP주소버전: IPv4, IPv6
 HTML도 버전: HTML5, HTML4.01(old)
 
-20210512(수) 작업내역
+#### 20210512(수) 작업내역
+git clone 으로 프로젝트를 가져온 경우 아래 내용을 추가해 주셔야합니다.
+git config --list 확인에서 user.name, user.email 없으면 아래추가.
+터미널에서 아래 2가지 실행
+git config --local user.name 영문이름
+git config --local user.email 영문이메일
+프로젝트를 1명 제작하는 경우 없기때문에, 2명일때 소스수정한 사람 확인용 정보 입니다.
+
+
+#### 20210513(목) 작업내역
+-제이쿼리 코어 다운받기 : min버전(압축-속도up), 일반버전(개발-속도nomal)
+-jQuery 미처리 작업은 다음주하고.
+-오늘부터는 모바일 메인페이지 1개 만들어서 과제물로제출->스프링해서 프로그램 -입히는 소스로 사용하게 됩니다.
+-애니데스크(독일산): 팀뷰어(독일산)사용하는 대신에 애니데스크를 사용.
+-html5.html,css.html, js.html 야기까지
+-jQuery 기본구조만 실습.
+
+#### 작업예정 : jQuery 제이쿼리 JSON 데이터 파싱
+-외부 data.js 파일에서 Json 데이터를 html에서 불러와서파싱.
+-외부 사이트에서제공하는 json데이터를 html에서 불러와 파싱
+-ResTAPI서버 중 코로나19 확지자 데이터를받아서 html에서 파싱(데이터를 분해해서 화면에 뿌려주는 작업)
+-ReatAPI서버주소: http://coroname.me/getdata
