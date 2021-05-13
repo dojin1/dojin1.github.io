@@ -149,8 +149,8 @@ header {
 	background: url(/home/img/btn_closeMenu.png) no-repeat;
 	background-size: 60px;
 }
-.utll {padding: 20px;}
-.header_cont a{
+.util {padding: 20px;}
+.header_cont a {
 	color: #fff; font-size: 16px;
 }
 .util li {float: left;}
