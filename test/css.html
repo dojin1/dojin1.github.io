@@ -12,6 +12,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 <style>
+        /* 선택자 종류 
+        범용선택자:* (뱔표:애스터리스크)
+        태그선택자: h1, h2, p, div, header, footer, atricle등
+        calss선택자: .class이름 , 특징:중복사용가능
+        id선택자:#id이름, 특징:중복사용시 오작동
+        가상선택자: ::after ::before :before
+        가상요소(Element-가상태그): :hover 사용예 a:hover*/
    h1 { background-color: skyblue; }
     /* div * {
         color: green; */}
@@ -40,9 +47,9 @@
             width: 200px;
             height: 200px;
             background-color: green;
-            padding:10px; /* 안쪽여백*/
+            padding: 10px; /* 안쪽여백*/
             /* 바깥여백 : 4가지방향 12시시작 시계방향 */
-            margin:20px 10px 30px 80px;
+            margin:20px 10px 50px 80px;
             /* 바깥여백: 2가지방향 상하/좌우 */
             margin: 30px 60px;
             border: 10px solid black;
@@ -55,10 +62,10 @@
             /*fixed는 고정위치 */
             margin-left: 20px;
             margin-top: 20px;
-            position: fixed;
-
+            /* position: relative; */
             /* 위에서부터 해석하는 방식 인터프러터형 가장아래가 적용 */
         }
+
         .box-two {
             width: 200px;
             height: 200px;
@@ -66,15 +73,7 @@
             box-sizing: border-box; /*필수*/
         }        
 </style>
-<!-- 03 선택자 종류
-        범용선택자:* (뱔표:애스터리스크)
-        태그선택자: h1, h2, p, div, header, footer, atricle등
-        calss선택자: .class이름 , 특징:중복사용가능
-        id선택자:#id이름, 특징:중복사용시 오작동
-        가상선택자: ::after ::before :before
-        가상요소(Element-가상태그): :hpver 사용예 a:hover  -->
     <h1>
-
 </head>
 <body>
 <h1>헬로 CSS</h1>
