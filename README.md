@@ -70,3 +70,8 @@ git config --local user.email 영문이메일
 -외부 사이트에서제공하는 json데이터를 html에서 불러와 파싱
 -ResTAPI서버 중 코로나19 확지자 데이터를받아서 html에서 파싱(데이터를 분해해서 화면에 뿌려주는 작업)
 -ReatAPI서버주소: http://coroname.me/getdata
+
+#### 20210514(금) 작업예정
+- 시용자단 모바일 메인페이지 footer영역 CSS 입히기.
+- 과제물 제출 준비
+- 메인페이지에 자바스크립트(jQuery)적용 -메뉴 슬라이드이미지처리, top상단이동
