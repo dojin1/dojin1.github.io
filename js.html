@@ -23,7 +23,7 @@
         // josnData 파싱해서 #board 영역에 동적으로 출력
         $(document).ready(function(){
             for(var i=0;i<jsonData.length;i++) {
-                // josnData를 1개씩 뽀ㅃ아서 화면에 table>tr>td에 출력하게 함.
+                // josnData를 1개씩 뽑아서 화면에 table>tr>td에 출력하게 함.
                 // append는 가상선택자의 after 기준영역의 다음을 말합니다.
                 $('#board tbody').append('<tr>');
                 $('#board tbody').append('<td style="text-align:center;">'+(i+1)+'</td>');
@@ -57,7 +57,7 @@
             <th>age</th>
             <th>eyeColor</th>
             <th>name</th>
-            <tbody></tbody>
+            <!-- <tbody></tbody> -->
         </tr>
     </table>
     <div id="one">헬로 자바스크립트</div>
