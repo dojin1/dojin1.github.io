@@ -25,13 +25,13 @@
             for(var i=0;i<jsonData.length;i++) {
                 // josnData를 1개씩 뽑아서 화면에 table>tr>td에 출력하게 함.
                 // append는 가상선택자의 after 기준영역의 다음을 말합니다.
-                $('#board tbody').append('<tr>');
-                $('#board tbody').append('<td style="text-align:center;">'+(i+1)+'</td>');
-                $('#board tbody').append('<td>'+jsonData[i]['_id']+'</td');       
-                $('#board tbody').append('<td>'+jsonData[i]['age']+'</td');       
-                $('#board tbody').append('<td>'+jsonData[i]['eyeColor']+'</td');       
-                $('#board tbody').append('<td>'+jsonData[i]['name']+'</td');
-                $('#board tbody').append('</tr>');
+                $('#board #tbody').append('<tr>');
+                $('#board #tbody').append('<td style="text-align:center;">'+(i+1)+'</td>');
+                $('#board #tbody').append('<td>'+jsonData[i]['_id']+'</td');       
+                $('#board #tbody').append('<td>'+jsonData[i]['age']+'</td');       
+                $('#board #tbody').append('<td>'+jsonData[i]['eyeColor']+'</td');       
+                $('#board #tbody').append('<td>'+jsonData[i]['name']+'</td');
+                $('#board #tbody').append('</tr>');
             }
         });
     </script>
@@ -50,14 +50,14 @@
         });
     </script>
 </head>
-<body>
+<body> 
     <table id="board">
         <tr>
             <th>id</th>
             <th>age</th>
             <th>eyeColor</th>
             <th>name</th>
-            <!-- <tbody></tbody> -->
+            <tbody id="tbody"></tbody>
         </tr>
     </table>
     <div id="one">헬로 자바스크립트</div>
@@ -306,7 +306,7 @@
         var 변수1 = 100;//변수는 한글사용 안됨
         document.write("변수타입은: ", typeof(변수1));
         document.write(변수1+변수1);
-        document.write('<br>');//줄바꿈 br : brreak return(중지하고 엔터)
+        document.write('<br>');//줄바꿈 br : break return(중지하고 엔터)
         변수1 = '100';//'문자' . "문자열" = JS에서는구분없음
         document.write('변수타입은: ', typeof(변수1));
         document.write(변수1+변수1);
@@ -314,7 +314,7 @@
         var name = 'chojunho';
         document.write(name[7]);//배열은 위치정보=인덱스값을 가지고 값을제어
         //인덱스=index=색인(책끝에 가나다 인덱스와 같은 역할)
-        //모든언어의 배열의 인덱스 시작은 0부터 입니다.(단,베이작언어는1)
+        //모든언어의 배열의 인덱스 시작은 0부터 입니다.(단,베이직언어는1)
 
         //특징 입력된 값에 따라서 변수 형이 결정이 됩니다.
 
