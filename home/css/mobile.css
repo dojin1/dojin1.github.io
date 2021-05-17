@@ -250,13 +250,13 @@ li.imglist1 {
 	position: absolute;
 	z-index: 10;
 	left: 0; top: 0;
-	background: url(../img/slide.png.jpg) no-repeat;
+	background: url(../img/slide2.png.jpg) no-repeat;
 }
 li.imglist2 {
 	position: absolute;
 	z-index: 10;
 	left: 0; top: 0;
-	background: url(../img/slide.png.jpg) no-repeat;
+	background: url(../img/slide3.png.jpg)) no-repeat;
 }
 .roll_content {
 	position: static;
