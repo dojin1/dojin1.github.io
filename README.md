@@ -5,6 +5,7 @@
 - ReatAPI서버주소(빅데이터): https://coroname.me/getdata
 
 #### 20210517(월) 작업예정
+- 수업시작전, JsonData 파싱부분에서 append 사용에 2번 반복되는 부분 확인 예정.
 - 메인페이지에 자바스크립트(jQuery)적용.(VS code+HTML5+CSS+jQuery)
 - 제이쿼리적용부문: 메뉴, 슬라이드이미지3개 처리: 모바일 페이지만 마무리
 - 테블릿 메인 CSS 스타일처리, PC용 메인 CSS 스타일처리
