@@ -45,7 +45,6 @@
 	}
 	//첫번째대메뉴 서브메뉴 .gnb_depth2_2 마우스 롤아웃 상태처리
 	var isOver21 = false;
-	
 	function goHide2() {
 		if(!isOver21) {
 			$('.gnb_depth2_2').stap().fadeOut('fast');
@@ -63,7 +62,7 @@
 			isOver11 = true;
 		});
 		// [대메뉴1번]의 마우스 아웃 이벤트 => .gnb_depth2_1 서브메뉴 숨기기
-		$('.openAll1').mouseout(function(){
+			$('.openAll1').mouseout(function(){
 			isOver11 = false;
 			setTimeout('goHide1()',200);//0.2마다 함수를 실행해 서브메뉴를 숨기기 처리
 		});
