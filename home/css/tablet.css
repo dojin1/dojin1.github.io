@@ -81,7 +81,7 @@
 		padding-right: 0px;
 	}
 	/* //상단로고와 메뉴스타일 */
-}		/* 컨테이너영역 */
+		/* 컨테이너영역 */
 #container {
     padding-bottom: 20px;
     width: auto;
@@ -125,5 +125,6 @@ ul.viewImgList li {
     margin-top: 20px;
 }
 /* //최신갤러리 */
+}
 
 	
