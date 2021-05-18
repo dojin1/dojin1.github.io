@@ -91,7 +91,7 @@ header {
     display: inline-block;
     width: 150px;
     height: 80px;
-    background: url(../img/logo.png.jpg);
+    background: url(../img/logo.png);
     background-size: 50px 60px !important; /* 가로 50px 세로 60px */
     background-position: center center; /* 가로 가운데, 세로 가운데 */
     background-repeat: no-repeat;
