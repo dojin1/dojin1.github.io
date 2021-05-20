@@ -18,10 +18,17 @@
 - 자바에 익숙해진 후 위 스프링프로젝트를 이용해서 
 - VS code에서 만든 UI를 JSP로 변경 한 후 스프링 웹프로젝트를 진행.
 
+#### 20210521(금) 작업예정.
+- 반응형 게시판페이지(CRUD) CSS처리 : Create(Update) - board_write.html
+- 반응형 서브페이지(로그인,회원가입,마이페이지)
+- 이클립스 hello world 실습.
 #### 20210520(목) 작업내역
 - 메인페이지 시간이 걸리는부분(프론트엔드): 메뉴처리, 슬라이딩처리 OK
 - 메인페이지 시간이 걸리는부분(백엔드): 최근갤러리, 최근공지사항 등 DB데이터를 출력하는부분
-- 모바일 게시판페이지(CRUD) CSS처리 : Read(list, view페이지)
+- 모바일 게시판페이지(CRUD) CSS처리 : Read(list, view페이지) OK
+- Read: 리스트형식(다중map):board_list.html 예: 회원리스트(회원목록)
+- Read-단일Map형식, (key:value1, key2:value2,key3:value3 ...): voard_view.html (회원상세보기)
+- 상세보기 페이지 댓글 디자인은 부트스트랩 디자인시(관리자단 작업시) 추가 할 예정.
 - 카멜표기법(낙타등표기법ex:.bbsListTbl), _표기법(ex:.bbs_title)
 - href: hypertext referance (웹문서 참조)
 - 정적(static) 컨텐츠:html, css, js
