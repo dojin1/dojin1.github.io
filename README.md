@@ -11,11 +11,17 @@
 - OPEN JDK 8버전(eogv와 100% 호환) 사용.
 - 톰캣 : 이클립스에서 웹프로그램 결과를 확인하는 라이브 서버입니다.(localhost:8080)
 - 라이브서버(아파치): VS code에서 HTML 결과를 확인하는 라이브서버.(localhost:5500)
+- JRE : Java Runtime Environment(자바실행환경) - 자바앱을 실행할때만 사용.
+- JDK설치: 개발하고, 실행할때.
+- 점심시간 후 웹프로젝트(Hello World)->play확인후 삭제 후 아래 부터는 2달간진행.
+- 스프링프로젝트(Hello Java)-test 폴더에서 자바기초를 실습.
+- 자바에 익숙해진 후 위 스프링프로젝트를 이용해서 
+- VS code에서 만든 UI를 JSP로 변경 한 후 스프링 웹프로젝트를 진행.
 
 #### 20210520(목) 작업내역
 - 메인페이지 시간이 걸리는부분(프론트엔드): 메뉴처리, 슬라이딩처리 OK
 - 메인페이지 시간이 걸리는부분(백엔드): 최근갤러리, 최근공지사항 등 DB데이터를 출력하는부분
-- 모바일 게시판페이지(CRUD) CSS처리
+- 모바일 게시판페이지(CRUD) CSS처리 : Read(list, view페이지)
 - 카멜표기법(낙타등표기법ex:.bbsListTbl), _표기법(ex:.bbs_title)
 - href: hypertext referance (웹문서 참조)
 - 정적(static) 컨텐츠:html, css, js
