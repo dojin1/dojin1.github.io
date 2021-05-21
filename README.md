@@ -24,6 +24,7 @@
 - 부트스트랩(AdminLTE): 제이쿼리 기반의 UI 템플릿(프레임워크)
 - AdminLTE: dist(디스트리뷰트=배포), pages(더미데이터), plugins(서머노트등등)
 - 대시보드 파일샘플->index.html, index2.html, index3.html
+- board_write.html 파일에bootstrap코어 + 서머노트플러그인 임포트
 - 반응형 서브페이지(로그인,회원가입,마이페이지)
 - 이클립스 hello world 실습.
 
