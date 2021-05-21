@@ -3,7 +3,7 @@
 
 /* 공동 영역 */
 body {
-    font-family: 'Nanum Gothic', sans-serif,'' !important;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px !important; /* fixed font-size */
     letter-spacing: -1px !important; /* 글자 사이에 간격 */
     color: #444 !important;
