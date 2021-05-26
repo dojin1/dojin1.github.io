@@ -315,9 +315,10 @@
 		border: 1px solid #ccc;
 		margin-left: 1px;
 	}
+    
 	.app_content input {
 		border: none;
-		width: inherit; /* 부모 영역(브라우저 기본값) input태그의 너비값을 상속 받음.=>초기화 */
+		/* width: inherit; 부모 영역(브라우저 기본값) input태그의 너비값을 상속 받음.=>초기화 */
 		box-sizing: border-box; /* 테두리까지 너비값에 포함시킴. 아래 스크롤 사라짐 */
 		display: inline-block;
 		height: 45px;
